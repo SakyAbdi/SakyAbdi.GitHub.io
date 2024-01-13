@@ -1,0 +1,100 @@
+<html lang="en">
+<head><link rel="stylesheet" href="mystyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="banner">
+        <div class="links">
+            <span class="Home-page"><a href="E:\System\Documents\Coding Projects\Website\Home Page\Home.html">Home Page</a></p></span>
+            <span class="Taariikhda"><a href="E:\System\Documents\Coding Projects\Website\Taariikhda/Taariikhda.html">Taariikhda</a></p></span>    
+            <span class="Statsenal"><a href="E:\System\Documents\Coding Projects\Website\Statsenal\Statsenal.html">Statsenal</a></span>
+            <img class="Arsenal-logo" src="E:\System\Documents\Coding Projects\Website\Home Page\Arsenal Logo.png"  width="30px" height="30px">
+            <span class="Arsenal-link"><a href="https://www.arsenal.com/">Arsenal</a></span>
+            <img class="Urawa-Red-Diamonds-Logo" src="E:\System\Documents\Coding Projects\Website\Home Page\Urawa Red Diamonds Logo.png"  width="30px" height="30px">
+            <span class="Urawa-link"><a href="https://www.urawa-reds.co.jp/reds-en/">Urawa Red Diamonds</a></span>
+        </div>
+        <b class= "Greetings">Welcome!</b>
+    </div>
+    <div class="main-text">
+    <div class="other-links">
+        <span><i>"This project began on October 24th, 2022." </i>         ~ Sakariye</span>
+        <br>
+            <p>Project One: <a href="E:\System\Documents\Coding Projects\Website\Home Page\Home.html">Home Page</a></p>
+            <p>Project Two: <a href="E:\System\Documents\Coding Projects\Website\2D Platformer\2D Platformer.html">2D Platformer Game</a></p>
+            <p>Project Three: <a href="E:\System\Documents\Coding Projects\Website\Taariikhda\Taariikhda.html">Taariikhda</a></p>
+            <p>Project Four: <a href="E:\System\Documents\Coding Projects\Website\Statsenal\Statsenal.html">Statsenal</a></p>
+        </div>
+    <div class="time">
+        <h1 id="Los Angeles Time"></h1>
+        <div class="quotes1">
+            <p>Time in Los Angeles:</p>
+        </div>
+        <h2 id="Toronto Time"></h2>
+        <div class="quotes2">
+            <p>Time in Toronto:</p>
+        </div>
+        <h3 id="London Time"></h3>
+        <div class="quotes3">
+            <p>Time in London:</p>
+        </div>  
+        <h4 id="Mogadishu Time"></h4>
+        <div class="quotes4">
+            <p>Time in Mogadishu:</p>
+        </div>        
+        <h5 id="Tokyo Time"></h5>
+        <div class="quotes5">
+            <p>Time in Tokyo:</p>
+        </div>
+    </div>
+    </div>
+    <div class="ads">
+        <h1 id="ad1"><p>Ads go here!</p></h1>
+    </div>
+<script>
+        let time1 = document.getElementById("Los Angeles Time");      
+        setInterval(() =>{
+        let d = new Date();
+        let options1 = {timeZone: 'America/Los_Angeles'};
+        time1.innerHTML = d.toLocaleTimeString('en-US', options1);
+        }, 1000)
+</script>      
+<script>
+        let time2 = document.getElementById("Toronto Time");      
+        setInterval(() =>{
+        let d = new Date();
+        let options2 = {timeZone: 'America/New_York'};
+        time2.innerHTML = d.toLocaleTimeString('en-US', options2);
+        }, 1000)
+</script>
+<script>
+        let time3 = document.getElementById("London Time");      
+        setInterval(() =>{
+        let d = new Date();
+        let options3 = {timeZone: 'Europe/London'};
+        time3.innerHTML = d.toLocaleTimeString('en-US', options3);
+        }, 1000)
+</script>
+<script>
+        let time4 = document.getElementById("Mogadishu Time");      
+        setInterval(() =>{
+        let d = new Date();
+        let options4 = {timeZone:'Africa/Mogadishu'};
+        time4.innerHTML = d.toLocaleTimeString('en-US', options4);
+        }, 1000)
+</script>
+<script>
+        let time5 = document.getElementById("Tokyo Time");      
+        setInterval(() =>{
+        let d = new Date();
+        let options5 = {timeZone:'Asia/Tokyo'};
+        time5.innerHTML = d.toLocaleTimeString('en-US', options5);
+         }, 1000)
+</script>
+<footer class="main-footer">        
+    <h1 id="footer"></h1>
+    <div class="quotes6">
+        <p>© Sakariye Abdi 2023</p>
+    </div>
+</footer>
+</body>
+</html>

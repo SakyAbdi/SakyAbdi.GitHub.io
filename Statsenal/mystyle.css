@@ -1,0 +1,414 @@
+*{margin: 0;
+  padding: 0;
+  font-family: "popins", sans-serif;
+  }
+  body{
+    overflow-x: hidden;
+    background: gray;
+  }
+  .banner{
+    top: 0;
+    width:100%;
+    height: 7%;
+    background: gray;
+    display: flex;
+    align-items: start;
+    position: relative;
+    border: 5px solid black;
+  }
+  .links{
+    width: 100%;
+    top: 0;
+    background: gray;
+    display: flex;
+    align-items: start;
+    position: absolute;
+    color: white;
+  }
+  .Home-page{
+    width: 100%;
+    top: 30;
+    background:  gray;
+    display: flex;
+    align-items: start;
+    position: relative;
+    font-size: 10px;
+    font-weight: 25;
+    color: white;
+  }
+  .Taariikhda{
+    width: 100%;
+    top: 30;
+    background:  gray;
+    display: flex;
+    align-items: start;
+    position: relative;
+    font-size: 10px;
+    font-weight: 25;
+    color: white;
+  }
+  .Arsenal-logo{
+    width: 50s;
+    top: 10;
+    background:  gray;
+    display: flex;
+    align-items: start;
+    position: relative;
+    font-size: 10px;
+    font-weight: 25;
+    color: white;
+    }
+  .Arsenal-link{
+    width: 100%;
+    top: 30;
+    background:  gray;
+    display: flex;
+    align-items: start;
+    position: relative;
+    font-size: 10px;
+    font-weight: 25;
+    color: white;
+  }
+  .Urawa-Red-Diamonds-Logo{
+    width: 50;
+    top: 10;
+    background:  gray;
+    display: flex;
+    align-items: start;
+    position: relative;
+    font-size: 10px;
+    font-weight: 25;
+    color: white;
+  }
+  .Urawa-link{
+    width:100%;
+    top: 30;
+    background: gray;
+    display: flex;
+    align-items: start;
+    position: relative;
+    font-size: 10px;
+    font-weight: 25;
+    color: white;
+  }
+  .Greetings{
+    width:50;
+    height: 30%;
+    right: 50%;
+    background:gray;
+    display: flex;
+    align-items: start;
+    position: relative;
+  }
+  .main-text{
+    top: 0%;
+    left: 0%;
+    height: 1500;
+    width: 80%;
+    background: gray;
+    display: flex;
+    align-items: start;
+    position: relative;
+    padding: 0px;
+    margin: 50;
+    border: 5px solid black;
+  }
+  .other-links{
+    top: 0%;
+    width: 47.5%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+  }
+  .Internal-Page-Links{
+    top: 30%;
+    right: 15%;
+    width: 15%;
+    height: 50%;
+    background:gray;
+    display: flex;
+    align-items: start;
+    position: fixed;
+    margin: 50;
+    font-size: 10px;
+    font-weight: 25;
+    border:  5px solid black;
+}
+.Premier-League-Section{
+  top: 5;
+  left: 5;
+  background:gray;
+  display: flex;
+  align-items: start;
+  position: absolute;
+  font-size: 10px;
+  font-weight: 25;
+}
+.Premier-League-Goals{
+  top: 20;
+  left: 20;
+  background:gray;
+  display: flex;
+  align-items: start;
+  position: absolute;
+  font-size: 10px;
+  font-weight: 25;
+}
+.Premier-League-Assists{
+  top: 20;
+  left: 90;
+  background:gray;
+  display: flex;
+  align-items: start;
+  position: absolute;
+  font-size: 10px;
+  font-weight: 25;
+}
+.Arsenal-Section{
+  top: 40;
+  left: 5;
+  background:gray;
+  display: flex;
+  align-items: start;
+  position: absolute;
+  font-size: 10px;
+  font-weight: 25;
+}
+.Arsenal-Goals{
+  top: 55;
+  left: 20;
+  background:gray;
+  display: flex;
+  align-items: start;
+  position: absolute;
+  font-size: 10px;
+  font-weight: 25;
+}
+.Arsenal-Assists{
+  top: 55;
+  left: 90;
+  background:gray;
+  display: flex;
+  align-items: start;
+  position: absolute;
+  font-size: 10px;
+  font-weight: 25;
+}
+  .Spreadsheet-1{
+    top: 10;
+    left: 10;
+    width: 100%;
+    background: gray;
+    display: flex;
+    align-items: start;
+    position: absolute;
+  }
+  iframe.Premier-League-Goals{
+    top: 0;
+    width: 110%;
+    height: 280;
+    left: 0;
+    position: absolute;
+    border: 5px solid black;
+    margin: 50px;
+  }
+  .Spreadsheet-2{
+    top: 350;
+    left: 10;
+    width: 100%;
+    background: gray;
+    display: flex;
+    align-items: start;
+    position: absolute;
+  }
+  iframe.Premier-League-Assists{
+    top: 350;
+    width: 110%;
+    left: 0;
+    height: 280;
+    position: absolute;
+    border: 5px solid black;
+    margin: 50px;
+  }
+  .Spreadsheet-3{
+    top: 690;
+    left: 10;
+    width: 100%;
+    background: gray;
+    display: flex;
+    align-items: start;
+    position: absolute;
+  }
+  iframe.Arsenal-Goals{
+    top: 690;
+    width: 110%;
+    height: 280;
+    left: 0;
+    position: absolute;
+    border: 5px solid black;
+    margin: 50px;
+  }
+  .Spreadsheet-4{
+    top: 1030;
+    left: 10;
+    width: 100%;
+    background: gray;
+    display: flex;
+    align-items: start;
+    position: absolute;
+  }
+  iframe.Arsenal-Assists{
+    top: 1030;
+    width: 110%;
+    left: 0;
+    height: 280;
+    position: absolute;
+    border: 5px solid black;
+    margin: 50px;
+  }
+  .time{
+    top: 0;
+    right: 0;
+    width: 15%;
+    background: gray;
+    display: flex;
+    align-items: start;
+    position: absolute;
+    margin: 50;
+  }
+  .time h1{
+    position: absolute;
+    top: 0%;
+    right:0;
+    color: black;
+    font-size: 10px;
+    font-weight: 25;
+  }
+  .quotes1{
+    top: 0;
+    right:64;
+    position: absolute;
+    text-align: right;
+    color: black;
+    font-size: 10px;
+    font-weight: 25;
+  }
+  .time h2{
+    position: absolute;
+    top: 12;
+    right:0;
+    color: black;
+    font-size: 10px;
+    font-weight: 25;
+  }
+  .quotes2{
+    top: 12;
+    right:85;
+    position: absolute;
+    text-align: right;
+    color: black;
+    font-size: 10px;
+    font-weight: 25;
+  }
+  .time h3{
+    position: absolute;
+    top: 24;
+    right:0;
+    color: black;
+    font-size:10px;
+    font-weight: 25;
+  }
+  .quotes3{
+    top: 24;
+    right:85;
+    position: absolute;
+    text-align: right;
+    color: black;
+    font-size: 10px;
+    font-weight: 25;
+  }
+  .time h4{
+    position: absolute;
+    top: 36;
+    right:0;
+    color: black;
+    font-size: 10px;
+    font-weight: 25;
+  }
+  .quotes4{
+    top: 36;
+    right:69;
+    position: absolute;
+    text-align: right;
+    color: black;
+    font-size: 10px;
+    font-weight: 25;
+  }
+  .time h5{
+    position: absolute;
+    top: 48;
+    right:0;
+    color: black;
+    font-size: 10px;
+    font-weight: 25;
+  }
+  .quotes5{
+    top: 48;
+    right:92;
+    position: absolute;
+    text-align: right;
+    color: black;
+    font-size: 10px;
+    font-weight: 25;
+  }
+  .ads{
+    top: 200;
+    right: 50px;
+    height: 250px;
+    width: 130px;
+    background:white;
+    display: flex;
+    align-items: start;
+    position: absolute;
+    border: 5px solid black;
+  }
+  .ads h1{
+    top: 30;
+    right:50;
+    position: absolute;
+    text-align: right;
+    color: black;
+    font-size: 30px;
+    font-weight: 25; 
+    writing-mode: vertical-rl;
+  }
+  .main-footer{
+    bottom: 0%;
+    width: 100%;
+    bottom: 0%;
+    height: 5%;
+    background: gray;
+    display: flex;
+    align-items: start;
+    position: relative;
+    border: 5px solid black;
+  }
+  .main-footer h1{
+    position: absolute;
+    bottom: 0%;
+    right:0%;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 25;
+  }
+  .quotes6{
+    bottom: 25%;
+    right:50%;
+    position: absolute;
+    text-align: left;
+    color: #ffff;
+    font-size: 10px;
+    font-weight: 25;
+  }
