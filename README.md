@@ -1,2 +1,2 @@
 # SakyAbdi.GitHub.io
-Contains the code needed for my personal website
+This repository contains the code needed for my personal website
